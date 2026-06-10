@@ -1,0 +1,159 @@
+{
+  "source": "Openverse API",
+  "note": "Imagens livres usadas como placeholders de portf?lio. Substitua por fotos reais dos trabalhos da Magnifique quando poss?vel.",
+  "images": [
+    {
+      "file": "assets/img/portfolio-01.webp",
+      "title": "Elevate Printing - Epson GS6000 Printer",
+      "creator": "Elevate Printing",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/32791698@N08/3123470876",
+      "source": "flickr",
+      "query": "wide format printer"
+    },
+    {
+      "file": "assets/img/portfolio-02.webp",
+      "title": "Large-format printer",
+      "creator": "quinn.anya",
+      "license": "by-sa",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/53326337@N00/2341074213",
+      "source": "flickr",
+      "query": "large format printer"
+    },
+    {
+      "file": "assets/img/portfolio-03.webp",
+      "title": "I live in a surreal world! Went in the ARC Columbus to pick up prints for a freelance job, and saw my head on their large format printer! Eeeee! Thanks GCAC! #artmakescolumbus #columbusmakesart #asseenincolumbus #lisamclymont",
+      "creator": "lisamc369",
+      "license": "by-nd",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/95427889@N00/21437237662",
+      "source": "flickr",
+      "query": "large format printer"
+    },
+    {
+      "file": "assets/img/portfolio-04.webp",
+      "title": "Offset Printing",
+      "creator": "Kelly Sue",
+      "license": "by-sa",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/44124395312@N01/6944827514",
+      "source": "flickr",
+      "query": "offset printing"
+    },
+    {
+      "file": "assets/img/portfolio-05.webp",
+      "title": "Offset Printing",
+      "creator": "Kelly Sue",
+      "license": "by-sa",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/44124395312@N01/7090896591",
+      "source": "flickr",
+      "query": "offset printing"
+    },
+    {
+      "file": "assets/img/portfolio-06.webp",
+      "title": "Offset Printing",
+      "creator": "Kelly Sue",
+      "license": "by-sa",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/44124395312@N01/6944827830",
+      "source": "flickr",
+      "query": "offset printing"
+    },
+    {
+      "file": "assets/img/portfolio-07.webp",
+      "title": "'2. PANTONE Cliche Colour Chart POSITIVE (Part 2)' - Digital Print on Archival Paper 80 x 110cm 2009",
+      "creator": "Sylvia Jeffriess",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/64064463@N06/6412768291",
+      "source": "flickr",
+      "query": "digital printing"
+    },
+    {
+      "file": "assets/img/portfolio-08.webp",
+      "title": "Dentist neon signage",
+      "creator": "renaissancechambara",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/39435232@N00/3784952332",
+      "source": "flickr",
+      "query": "signage"
+    },
+    {
+      "file": "assets/img/portfolio-09.webp",
+      "title": "Tokyo signage",
+      "creator": "vikkiq",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/29650271@N08/15439806931",
+      "source": "flickr",
+      "query": "signage"
+    },
+    {
+      "file": "assets/img/portfolio-10.webp",
+      "title": "Installing signage in the 45th Street node at the mezzanine level of the future LIRR passenger terminal.",
+      "creator": "MTA C&D - EAST SIDE ACCESS",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/59595815@N03/51539373951",
+      "source": "flickr",
+      "query": "signage"
+    },
+    {
+      "file": "assets/img/portfolio-11.webp",
+      "title": "Storefront sign painted by Sharon Butler",
+      "creator": "hragv",
+      "license": "by-nd",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/40751750@N00/4895054948",
+      "source": "flickr",
+      "query": "storefront sign"
+    },
+    {
+      "file": "assets/img/portfolio-12.webp",
+      "title": "Storefront sign",
+      "creator": "Salim Virji",
+      "license": "by-sa",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/44124427152@N01/2471413358",
+      "source": "flickr",
+      "query": "storefront sign"
+    },
+    {
+      "file": "assets/img/portfolio-13.webp",
+      "title": "Business Storefront Sign",
+      "creator": "Matt Jackson Matt",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/160527667@N06/41320362484",
+      "source": "flickr",
+      "query": "storefront sign"
+    },
+    {
+      "file": "assets/img/portfolio-14.webp",
+      "title": "Storefront sign touchup",
+      "creator": "The Haunted Game Cafe",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/35408038@N06/3949677612",
+      "source": "flickr",
+      "query": "storefront sign"
+    },
+    {
+      "file": "assets/img/portfolio-15.webp",
+      "title": "Bicycle wayfinding signage, I-90 Trail, Seattle",
+      "creator": "joshua_putnam",
+      "license": "by",
+      "license_version": "2.0",
+      "foreign_landing_url": "https://www.flickr.com/photos/97437961@N00/9719042836",
+      "source": "flickr",
+      "query": "wayfinding signage"
+    },
+    {
+      "file": "assets/img/portfolio-16.webp"
+    }
+  ]
+}
