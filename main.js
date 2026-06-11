@@ -91,6 +91,16 @@
         '<g data-draw fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">' +
         '<path d="M37 48h50v39H37z"/><path d="M31 38h62v15H31z"/><path d="M62 38v49"/><path d="M48 38c-13-13 2-27 14 0"/><path d="M76 38c13-13-2-27-14 0"/><path d="M29 86h68"/><path d="M41 94h42"/>' +
         "</g></svg>",
+      shirt:
+        '<svg class="line-svg" data-line-art viewBox="0 0 120 120" aria-hidden="true">' +
+        '<g data-draw fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M39 28 52 22h16l13 6 17 18-16 15-7-8v39H45V53l-7 8-16-15z"/><path d="M52 22c2 8 14 8 16 0"/><path d="M52 68h25"/><path d="M52 79h17"/>' +
+        "</g></svg>",
+      finish:
+        '<svg class="line-svg" data-line-art viewBox="0 0 120 120" aria-hidden="true">' +
+        '<g data-draw fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M28 28h64v64H28z"/><path d="M40 47h28"/><path d="M40 61h18"/><path d="M40 75h14"/><path d="M67 73l9 9 18-24"/><path d="M28 38h64"/><path d="M38 28v-7"/><path d="M82 28v-7"/>' +
+        "</g></svg>",
       chat:
         '<svg class="line-svg" data-line-art viewBox="0 0 120 120" aria-hidden="true">' +
         '<g data-draw fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">' +
