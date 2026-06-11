@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --paper: #ffffff;
   --paper-alt: #fafafb;
   --ink: #0c0c0c;
@@ -136,9 +136,9 @@ section[id] {
   right: 0;
   z-index: 0;
   color: rgba(12, 12, 12, 0.045);
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 8rem;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -153,9 +153,9 @@ section[id] {
 
 .section-heading h2 {
   margin: 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 3.4rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 0.98;
 }
 
@@ -186,7 +186,7 @@ section[id] {
   border-radius: 6px;
   color: var(--btn-color);
   background: var(--btn-bg);
-  font-weight: 800;
+  font-weight: 700;
   transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
 }
 
@@ -219,18 +219,18 @@ section[id] {
 .text-link {
   display: inline-flex;
   color: var(--cyan);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .splash {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  display: grid;
+  display: none;
   place-items: center;
   color: var(--ink);
   background:
-    linear-gradient(90deg, rgba(32, 173, 231, 0.08), transparent 24%, transparent 76%, rgba(236, 0, 140, 0.06)),
+    linear-gradient(90deg, rgba(32, 173, 231, 0.045), transparent 28%, transparent 72%, rgba(12, 12, 12, 0.025)),
     #fff;
   animation: splash-shell 4.8s ease forwards;
 }
@@ -252,9 +252,9 @@ section[id] {
   justify-content: center;
   gap: 3px;
   color: var(--ink);
-  font-family: "Archivo", sans-serif;
-  font-size: 4.6rem;
-  font-weight: 900;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 4.1rem;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -268,13 +268,8 @@ section[id] {
 
 .splash__word span::before,
 .splash__word span::after {
-  content: attr(data-letter);
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.75;
-  animation: register-close 2.2s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
-  animation-delay: calc(720ms + (var(--i) * 34ms));
+  display: none;
+  content: "";
 }
 
 .splash__word span::before {
@@ -295,7 +290,7 @@ section[id] {
 }
 
 .splash__rule {
-  height: 5px;
+  height: 2px;
   overflow: hidden;
   background: linear-gradient(90deg, rgba(32, 173, 231, 0.22), rgba(201, 205, 210, 0.45));
 }
@@ -304,7 +299,7 @@ section[id] {
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, var(--cyan), var(--magenta), var(--yellow), var(--ink));
+  background: linear-gradient(90deg, var(--ink), var(--cyan));
   transform-origin: left;
   animation: print-progress 4.35s cubic-bezier(0.76, 0, 0.24, 1) forwards;
 }
@@ -370,8 +365,8 @@ section[id] {
   align-items: center;
   gap: 12px;
   min-width: 0;
-  font-family: "Archivo", sans-serif;
-  font-weight: 900;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
 }
 
 .brand-lockup img {
@@ -392,7 +387,7 @@ section[id] {
   align-items: center;
   gap: 7px;
   font-size: 0.88rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .site-nav a {
@@ -529,9 +524,9 @@ section[id] {
 .hero-title {
   display: grid;
   margin: 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 7.4rem;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 0.86;
 }
 
@@ -542,9 +537,9 @@ section[id] {
 
 .hero__tagline {
   margin: 28px 0 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.65rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hero__copy {
@@ -668,9 +663,9 @@ section[id] {
 
 .studio-note blockquote {
   margin: 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.05;
 }
 
@@ -768,14 +763,15 @@ section[id] {
 
 .service-card h3 {
   margin: 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.75rem;
+  font-weight: 600;
   line-height: 1.04;
 }
 
 .service-card__lead {
   margin: 12px 0 0;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .service-card__summary {
@@ -818,7 +814,7 @@ section[id] {
   border-radius: 6px;
   color: var(--accent-ink);
   background: var(--accent);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .services-fallback,
@@ -842,8 +838,8 @@ section[id] {
 
 .services-fallback span,
 .process-fallback span {
-  font-family: "Archivo", sans-serif;
-  font-weight: 800;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
 }
 
 .services-fallback p,
@@ -853,7 +849,7 @@ section[id] {
 
 .services-fallback a {
   color: var(--cyan);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .is-enhanced .services-fallback,
@@ -897,8 +893,9 @@ section[id] {
 
 .process-card h3 {
   margin: 0 0 10px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.45rem;
+  font-weight: 600;
   line-height: 1.04;
 }
 
@@ -973,8 +970,9 @@ section[id] {
 }
 
 .sample-art strong {
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 3.2rem;
+  font-weight: 600;
   line-height: 0.95;
 }
 
@@ -1031,7 +1029,7 @@ section[id] {
   border-radius: 6px;
   color: #fff;
   background: var(--ink);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .loupe-controls label {
@@ -1068,7 +1066,7 @@ section[id] {
 
 .differentials h3 {
   margin: 0 0 8px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.4rem;
 }
 
@@ -1217,10 +1215,11 @@ section[id] {
 }
 
 .quote-panel__phone {
-  font-family: "Archivo", sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.78rem;
+  font-weight: 700;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .quote-panel dl {
@@ -1255,9 +1254,9 @@ section[id] {
   width: max-content;
   padding: 38px 0 22px;
   color: rgba(255, 255, 255, 0.09);
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 7rem;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 0.86;
   white-space: nowrap;
   animation: footer-slide 34s linear infinite;
@@ -1280,8 +1279,9 @@ section[id] {
 
 .footer-grid h2 {
   max-width: 360px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 2.1rem;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -1364,7 +1364,7 @@ body.nav-open .whatsapp-fab-wrap {
   background: #fff;
   box-shadow: 0 12px 32px rgba(12, 12, 12, 0.16);
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 700;
   transition: opacity 240ms ease, transform 240ms ease;
 }
 
@@ -1634,6 +1634,10 @@ body.nav-open .whatsapp-fab-wrap {
     scrollbar-width: thin;
   }
 
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
   .service-card {
     flex: 0 0 min(86vw, 360px);
     min-height: 580px;
@@ -1673,7 +1677,7 @@ body.nav-open .whatsapp-fab-wrap {
   }
 
   .quote-panel__phone {
-    font-size: 1.55rem;
+    font-size: 1.28rem;
   }
 
   .footer-display {

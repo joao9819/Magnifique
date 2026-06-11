@@ -126,6 +126,7 @@
       deliveryNote: brand.deliveryNote,
       whatsappLabel: brand.whatsappLabel,
       instagram: brand.instagram,
+      email: brand.email,
       hours: brand.hours,
       established: brand.established,
       sideMark: brand.sideMark
@@ -148,6 +149,12 @@
     qsa("[data-instagram-link]").forEach(function (el) {
       el.setAttribute("href", text(brand.instagramUrl, "#"));
       el.textContent = text(brand.instagram, el.textContent);
+    });
+
+    qsa("[data-email-link]").forEach(function (el) {
+      var email = text(brand.email, el.textContent);
+      el.setAttribute("href", "mailto:" + email);
+      el.textContent = email;
     });
 
     qsa("[data-year]").forEach(function (el) {

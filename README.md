@@ -50,10 +50,12 @@ Exemplo:
 
 ```js
 tagline: "Cada detalhe, ampliado.",
-coverage: "Ribeirão Preto e região · entrega para todo o Brasil",
+coverage: "Ribeirão Preto",
 whatsapp: "5516994526584",
 whatsappLabel: "+55 16 99452-6584",
-instagram: "@magnifique.grafica",
+instagram: "@magnifiquegrafica",
+email: "magnifiquegrafica@gmail.com",
+hours: "Seg a Sex · 8h às 18h",
 ```
 
 Cuidados importantes:
@@ -112,7 +114,7 @@ Tente nesta ordem:
 
 1. Aperte `Ctrl + F5`.
 2. Abra em uma janela anônima.
-3. Troque o número de versão `?v=20260610` no `index.html`, por exemplo para `?v=20260611`, nos arquivos `styles.css`, `main.js`, `lib/manifest.js`, `lib/gsap.min.js` e `lib/ScrollTrigger.min.js`.
+3. Troque o número de versão `?v=20260611` no `index.html`, por exemplo para `?v=20260612`, nos arquivos `styles.css`, `main.js`, `lib/manifest.js`, `lib/gsap.min.js` e `lib/ScrollTrigger.min.js`.
 
 ## Observação sobre endereço físico
 
