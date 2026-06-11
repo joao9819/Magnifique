@@ -13,6 +13,9 @@
   --header-h: 74px;
   --max: 1180px;
   --pad: 24px;
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: light;
 }
 
@@ -29,7 +32,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: 1.55;
   letter-spacing: 0;
@@ -81,7 +84,7 @@ button {
 }
 
 .mono {
-  font-family: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
 }
 
 .eyebrow,
@@ -136,7 +139,7 @@ section[id] {
   right: 0;
   z-index: 0;
   color: rgba(12, 12, 12, 0.045);
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 8rem;
   font-weight: 600;
   line-height: 1;
@@ -153,10 +156,10 @@ section[id] {
 
 .section-heading h2 {
   margin: 0;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 3.4rem;
-  font-weight: 600;
-  line-height: 0.98;
+  font-family: var(--font-serif);
+  font-size: 3.85rem;
+  font-weight: 500;
+  line-height: 0.94;
 }
 
 .section-heading em {
@@ -226,12 +229,13 @@ section[id] {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  display: none;
+  display: grid;
   place-items: center;
   color: var(--ink);
   background:
-    linear-gradient(90deg, rgba(32, 173, 231, 0.045), transparent 28%, transparent 72%, rgba(12, 12, 12, 0.025)),
+    radial-gradient(circle at 1px 1px, rgba(12, 12, 12, 0.03) 1px, transparent 0),
     #fff;
+  background-size: 12px 12px;
   animation: splash-shell 4.8s ease forwards;
 }
 
@@ -252,10 +256,11 @@ section[id] {
   justify-content: center;
   gap: 3px;
   color: var(--ink);
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 4.1rem;
-  font-weight: 600;
-  line-height: 1;
+  font-family: var(--font-serif);
+  font-size: 4.55rem;
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: 0.035em;
 }
 
 .splash__word span {
@@ -272,21 +277,10 @@ section[id] {
   content: "";
 }
 
-.splash__word span::before {
-  color: var(--magenta);
-  transform: translate(-9px, 5px);
-}
-
-.splash__word span::after {
-  color: var(--yellow);
-  text-shadow: 7px -4px 0 var(--cyan);
-  transform: translate(9px, -4px);
-}
-
 .splash__inner p {
   margin: 12px 0 24px;
   color: var(--muted);
-  font-size: 1.35rem;
+  font-size: 1rem;
 }
 
 .splash__rule {
@@ -524,10 +518,10 @@ section[id] {
 .hero-title {
   display: grid;
   margin: 0;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 7.4rem;
-  font-weight: 600;
-  line-height: 0.86;
+  font-family: var(--font-serif);
+  font-size: 8.1rem;
+  font-weight: 500;
+  line-height: 0.8;
 }
 
 .hero-title span:last-child {
@@ -537,9 +531,9 @@ section[id] {
 
 .hero__tagline {
   margin: 28px 0 0;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 1.65rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hero__copy {
@@ -663,9 +657,9 @@ section[id] {
 
 .studio-note blockquote {
   margin: 0;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.05;
 }
 
@@ -763,10 +757,10 @@ section[id] {
 
 .service-card h3 {
   margin: 0;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.75rem;
+  font-family: var(--font-serif);
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 1.04;
+  line-height: 0.98;
 }
 
 .service-card__lead {
@@ -893,10 +887,10 @@ section[id] {
 
 .process-card h3 {
   margin: 0 0 10px;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.45rem;
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
   font-weight: 600;
-  line-height: 1.04;
+  line-height: 0.98;
 }
 
 .process-card p:last-child {
@@ -970,9 +964,9 @@ section[id] {
 }
 
 .sample-art strong {
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 3.2rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 0.95;
 }
 
@@ -1066,8 +1060,9 @@ section[id] {
 
 .differentials h3 {
   margin: 0 0 8px;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .differentials p {
@@ -1254,9 +1249,9 @@ section[id] {
   width: max-content;
   padding: 38px 0 22px;
   color: rgba(255, 255, 255, 0.09);
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 7rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 0.86;
   white-space: nowrap;
   animation: footer-slide 34s linear infinite;
@@ -1279,7 +1274,7 @@ section[id] {
 
 .footer-grid h2 {
   max-width: 360px;
-  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-serif);
   font-size: 2.1rem;
   font-weight: 600;
   line-height: 1;
