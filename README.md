@@ -114,7 +114,7 @@ Tente nesta ordem:
 
 1. Aperte `Ctrl + F5`.
 2. Abra em uma janela anônima.
-3. Troque o número de versão `?v=20260613` no `index.html`, por exemplo para `?v=20260614`, nos arquivos `styles.css`, `main.js`, `lib/manifest.js`, `lib/gsap.min.js` e `lib/ScrollTrigger.min.js`.
+3. Troque o número de versão `?v=20260615` no `index.html`, por exemplo para `?v=20260616`, nos arquivos `styles.css`, `main.js`, `lib/manifest.js`, `lib/gsap.min.js` e `lib/ScrollTrigger.min.js`.
 
 ## Observação sobre endereço físico
 
